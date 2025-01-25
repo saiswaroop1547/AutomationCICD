@@ -16,7 +16,7 @@ import Selenium.SeleniumFrameworkDesign.confirmationPage;
 import Selenuim.SeleniumFrameworkDesign.test.BaseTest;
 
 public class StandaloneTest extends  BaseTest{
-
+//Addingcomments to check on things
 	String ProName = "IPHONE 13 PRO";
 	String Country = "India";
 		
@@ -42,7 +42,7 @@ public class StandaloneTest extends  BaseTest{
 		
 		@Test(dependsOnMethods = {"Order"})
 		public void OrderHistoryCheck()
-		{
+		{//to check func
 			ProductCatalogue productCtalogue = lp.test("swaroop@gmail.com","Test@123");
 			OrderPge op = productCtalogue.goToOrderPage();
 			Assert.assertTrue(op.verifyTheOrderedProduct(ProName));
