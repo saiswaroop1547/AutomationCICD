@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 42.953 s <<< FAILURE! - in TestSuite
+loginErrorValid(Selenium.SeleniumFrameworkDesign.t.ErrorValidationTest)  Time elapsed: 2.033 s  <<< FAILURE!
+java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email password.]
+	at Selenium.SeleniumFrameworkDesign.t.ErrorValidationTest.loginErrorValid(ErrorValidationTest.java:24)
+
